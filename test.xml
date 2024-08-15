@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<payment>
+	<status>AUTHORIZE_REQUEST</status>
+	<code>00000000</code>
+	<number>20</number>
+	<labels>
+		<paymentSuccessful>Payment successful</paymentSuccessful>
+	</labels>
+</payment>

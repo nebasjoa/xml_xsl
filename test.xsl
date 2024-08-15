@@ -3,19 +3,9 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
 		<html>
-			<style>
-body {
-	font-family: Arial;
-	margin: auto;
-	padding: auto;
-}
-.main-wrapper {
-	margin: auto;
-	width:40%;
-	background-color: #ffcd00;
-}
-
-</style>
+<head>
+<link rel="stylesheet" href="test.css"></link>
+</head>
 			<body>
 			<div class="main-wrapper">
 				<xsl:choose>
